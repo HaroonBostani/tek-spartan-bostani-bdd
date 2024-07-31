@@ -19,7 +19,7 @@ public class BaseSetup {
 
    public void quizBrowser(){
      //null check before quit
-       if (driver !=null) {
+       if (driver != null) {
            driver.quit();
        }
 
