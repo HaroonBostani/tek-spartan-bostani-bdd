@@ -7,7 +7,7 @@ import tek.bdd.utility.SeleniumUtility;
 
 public class SetupTestSteps extends SeleniumUtility {
 
-    @Given("Given Open browser and naviage to retial app")
+    @Given("Open browser and navigate to retial app")
   public void openBrowserAndNavigate() {
        SetupBrowser();
   }
