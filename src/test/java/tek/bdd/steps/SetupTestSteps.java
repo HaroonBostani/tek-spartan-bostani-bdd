@@ -14,12 +14,12 @@ public class SetupTestSteps extends SeleniumUtility {
 
   @Then("Validate top letf corner is TEKSCHOOL")
   public void validateTopLeftLogo() {
-  String text = getElementText(By.className("top-nav__logo active"));
+  String text = getElementText(By.xpath("//a[@class='top-nav__logo active']"));
       System.out.println(text);
   }
 
   @Then("Close the browser")
   public void closeBrowser() {
-        quizBrowser();
+        quitBrowser();
   }
 }

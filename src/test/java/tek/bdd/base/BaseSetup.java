@@ -17,7 +17,7 @@ public class BaseSetup {
        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
    }
 
-   public void quizBrowser(){
+   public void quitBrowser(){
      //null check before quit
        if (driver != null) {
            driver.quit();
